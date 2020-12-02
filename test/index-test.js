@@ -7,7 +7,7 @@ describe("Mocha walkthrough", () => {
 
   describe('sayHeyFriend(name)', () => {
     it("return the string 'Hey, ${name}!'", () => {
-      sayHeyFriend("Avi")
+      sayHeyFriend("Avi");
       expect(sayHeyFriend("Kristin")).toBe("Hey, Kristin!");
     });
   });
