@@ -1,3 +1,3 @@
-function seyHey() {
+function sayHey() {
   return "Hey!"
 }
